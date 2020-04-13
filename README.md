@@ -1,9 +1,9 @@
-### CImg_library 
-a light C++ library for image processing. 
+### CImg 
+[CImg](https://github.com/dtschump/CImg) is a light C++ library for image processing. Compared with the OpenCV, CImg contains only a single header file, which makes it more convenient to use. When we just need a few image processing functions in project, this library should be quite useful.
 
-here, we just use its display function. 
+This reposity is based on CImg library. And we'll show the fantastic functions in CImg. 
 
-#### How to use 
+### How to use 
 1. build the project 
 ```
 mkdir build 
@@ -20,11 +20,10 @@ make -j
 
 **in order to run the demo, OpenCV is necessary.**
 
-#### Task lists
+### Task lists
 - [x] cv::Mat to CImg  
 - [ ] how to do deblur  
 
 
-#### Reference   
-
-[CImg](https://github.com/dtschump/CImg)
+### Reference  
+CImg: https://github.com/dtschump/CImg
