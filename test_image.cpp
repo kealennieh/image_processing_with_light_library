@@ -21,9 +21,9 @@ int main(int argc, char *argv[])
         CImg<unsigned char> plane = tmp.get_shared_channel(src.channels() - 1 - c);
         for (int i = 0; i<size.height; ++i) 
         {
-        const unsigned char* row_i = channels[c].ptr<unsigned char>(i);
-        unsigned char *row_o = plane.data(0,i);
-        std::memcpy(row_o,row_i,size.width*sizeof(unsigned char));
+            const unsigned char* row_i = channels[c].ptr<unsigned char>(i);
+            unsigned char *row_o = plane.data(0,i);
+            std::memcpy(row_o,row_i,size.width*sizeof(unsigned char));
         }
     }
 
